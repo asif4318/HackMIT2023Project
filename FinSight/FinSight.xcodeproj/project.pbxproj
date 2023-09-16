@@ -11,6 +11,20 @@
 		1D1A4A202AB6115A004CCAF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A1F2AB6115A004CCAF8 /* ContentView.swift */; };
 		1D1A4A222AB6115C004CCAF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1A4A212AB6115C004CCAF8 /* Assets.xcassets */; };
 		1D1A4A252AB6115C004CCAF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1A4A242AB6115C004CCAF8 /* Preview Assets.xcassets */; };
+		1D1A4A2D2AB61A64004CCAF8 /* OCRVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */; };
+		1D1A4A312AB6245A004CCAF8 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A302AB6245A004CCAF8 /* CameraView.swift */; };
+		1D1A4A332AB6249C004CCAF8 /* ViewfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A322AB6249C004CCAF8 /* ViewfinderView.swift */; };
+		1D1A4A362AB624EC004CCAF8 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A352AB624EC004CCAF8 /* PhotoView.swift */; };
+		1D1A4A382AB6253F004CCAF8 /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A372AB6253F004CCAF8 /* ThumbnailView.swift */; };
+		1D1A4A3A2AB62573004CCAF8 /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A392AB62573004CCAF8 /* PhotoCollectionView.swift */; };
+		1D1A4A3C2AB62588004CCAF8 /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A3B2AB62588004CCAF8 /* PhotoItemView.swift */; };
+		1D1A4A3F2AB625D3004CCAF8 /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A3E2AB625D3004CCAF8 /* CachedImageManager.swift */; };
+		1D1A4A412AB62612004CCAF8 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A402AB62612004CCAF8 /* Camera.swift */; };
+		1D1A4A432AB626B8004CCAF8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A422AB626B8004CCAF8 /* DataModel.swift */; };
+		1D1A4A452AB626D4004CCAF8 /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A442AB626D4004CCAF8 /* PhotoAsset.swift */; };
+		1D1A4A472AB626E6004CCAF8 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */; };
+		1D1A4A492AB62702004CCAF8 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */; };
+		1D1A4A4B2AB62718004CCAF8 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +33,21 @@
 		1D1A4A1F2AB6115A004CCAF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D1A4A212AB6115C004CCAF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D1A4A242AB6115C004CCAF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRVision.swift; sourceTree = "<group>"; };
+		1D1A4A302AB6245A004CCAF8 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		1D1A4A322AB6249C004CCAF8 /* ViewfinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewfinderView.swift; sourceTree = "<group>"; };
+		1D1A4A352AB624EC004CCAF8 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		1D1A4A372AB6253F004CCAF8 /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		1D1A4A392AB62573004CCAF8 /* PhotoCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionView.swift; sourceTree = "<group>"; };
+		1D1A4A3B2AB62588004CCAF8 /* PhotoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
+		1D1A4A3E2AB625D3004CCAF8 /* CachedImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageManager.swift; sourceTree = "<group>"; };
+		1D1A4A402AB62612004CCAF8 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		1D1A4A422AB626B8004CCAF8 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		1D1A4A442AB626D4004CCAF8 /* PhotoAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAsset.swift; sourceTree = "<group>"; };
+		1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAssetCollection.swift; sourceTree = "<group>"; };
+		1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
+		1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		1D1A4A4C2AB628A8004CCAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,9 @@
 		1D1A4A1C2AB6115A004CCAF8 /* FinSight */ = {
 			isa = PBXGroup;
 			children = (
+				1D1A4A4C2AB628A8004CCAF8 /* Info.plist */,
+				1D1A4A2F2AB61F90004CCAF8 /* View */,
+				1D1A4A2B2AB61A34004CCAF8 /* Model */,
 				1D1A4A1D2AB6115A004CCAF8 /* FinSightApp.swift */,
 				1D1A4A1F2AB6115A004CCAF8 /* ContentView.swift */,
 				1D1A4A212AB6115C004CCAF8 /* Assets.xcassets */,
@@ -65,6 +97,50 @@
 				1D1A4A242AB6115C004CCAF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D1A4A2B2AB61A34004CCAF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D1A4A3D2AB625A7004CCAF8 /* Camera */,
+				1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D1A4A2F2AB61F90004CCAF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D1A4A342AB624D4004CCAF8 /* Camera */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D1A4A342AB624D4004CCAF8 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				1D1A4A302AB6245A004CCAF8 /* CameraView.swift */,
+				1D1A4A322AB6249C004CCAF8 /* ViewfinderView.swift */,
+				1D1A4A352AB624EC004CCAF8 /* PhotoView.swift */,
+				1D1A4A372AB6253F004CCAF8 /* ThumbnailView.swift */,
+				1D1A4A392AB62573004CCAF8 /* PhotoCollectionView.swift */,
+				1D1A4A3B2AB62588004CCAF8 /* PhotoItemView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		1D1A4A3D2AB625A7004CCAF8 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				1D1A4A3E2AB625D3004CCAF8 /* CachedImageManager.swift */,
+				1D1A4A402AB62612004CCAF8 /* Camera.swift */,
+				1D1A4A422AB626B8004CCAF8 /* DataModel.swift */,
+				1D1A4A442AB626D4004CCAF8 /* PhotoAsset.swift */,
+				1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */,
+				1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */,
+				1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +213,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1A4A412AB62612004CCAF8 /* Camera.swift in Sources */,
+				1D1A4A492AB62702004CCAF8 /* PhotoCollection.swift in Sources */,
+				1D1A4A3C2AB62588004CCAF8 /* PhotoItemView.swift in Sources */,
 				1D1A4A202AB6115A004CCAF8 /* ContentView.swift in Sources */,
 				1D1A4A1E2AB6115A004CCAF8 /* FinSightApp.swift in Sources */,
+				1D1A4A2D2AB61A64004CCAF8 /* OCRVision.swift in Sources */,
+				1D1A4A432AB626B8004CCAF8 /* DataModel.swift in Sources */,
+				1D1A4A362AB624EC004CCAF8 /* PhotoView.swift in Sources */,
+				1D1A4A452AB626D4004CCAF8 /* PhotoAsset.swift in Sources */,
+				1D1A4A332AB6249C004CCAF8 /* ViewfinderView.swift in Sources */,
+				1D1A4A3A2AB62573004CCAF8 /* PhotoCollectionView.swift in Sources */,
+				1D1A4A3F2AB625D3004CCAF8 /* CachedImageManager.swift in Sources */,
+				1D1A4A4B2AB62718004CCAF8 /* PhotoLibrary.swift in Sources */,
+				1D1A4A472AB626E6004CCAF8 /* PhotoAssetCollection.swift in Sources */,
+				1D1A4A382AB6253F004CCAF8 /* ThumbnailView.swift in Sources */,
+				1D1A4A312AB6245A004CCAF8 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +365,17 @@
 				DEVELOPMENT_TEAM = 7BYH4HTJ4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinSight/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Requires Access to Camera";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Requires Photo Library Addition";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Requires Photo Library Usage";
+				INFOPLIST_KEY_NSSiriUsageDescription = "Requires Voice Capture from Siri";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +400,17 @@
 				DEVELOPMENT_TEAM = 7BYH4HTJ4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinSight/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Requires Access to Camera";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Requires Photo Library Addition";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Requires Photo Library Usage";
+				INFOPLIST_KEY_NSSiriUsageDescription = "Requires Voice Capture from Siri";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
