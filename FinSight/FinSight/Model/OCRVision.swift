@@ -8,7 +8,6 @@ import SwiftUI
 import Vision
 
 class OCRViewModel: ObservableObject {
-//    @Published var recognizedText: String = ""
 
     func recognizeText(in ciImage: CIImage, completion: @escaping (String?) -> Void) {
         let request = VNRecognizeTextRequest { (request, error) in

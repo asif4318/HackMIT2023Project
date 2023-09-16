@@ -8,8 +8,7 @@
 import AVFoundation
 import SwiftUI
 import os.log
-
-    
+import Vision
 
 final class DataModel: ObservableObject {
     let camera = Camera()
@@ -20,10 +19,10 @@ final class DataModel: ObservableObject {
     @Published var thumbnailImage: Image?
     @Published var recognizedText: String = ""
     
+    var didDetectDocument = false
     var isPhotosLoaded = false
     
-    // Flag to check if a document was recently detected and captured
-//    private var didCaptureDocument = false
+    private var stableDocumentCounter = 0
     
     init() {
         Task {
@@ -34,16 +33,7 @@ final class DataModel: ObservableObject {
             await handleCameraPhotos()
         }
     }
-//    func handleCameraPreviews() async {
-//        let imageStream = camera.previewStream
-//            .map { $0.image }
-//
-//        for await image in imageStream {
-//            Task { @MainActor in
-//                viewfinderImage = image
-//            }
-//        }
-//    }
+
     func handleCameraPreviews() async {
         let imageStream = camera.previewStream
             .map { $0.image }
@@ -55,17 +45,64 @@ final class DataModel: ObservableObject {
         }
     }
     
+    // In DataModel.swift
+
     func handleCameraPhotos() async {
-        let unpackedPhotoStream = camera.photoStream
-            .compactMap { self.unpackPhoto($0) }
-        
+        let unpackedPhotoStream = camera.photoStream.compactMap { photo in
+            self.unpackPhoto(photo)
+        }
+
         for await photoData in unpackedPhotoStream {
-            Task { @MainActor in
-                thumbnailImage = photoData.thumbnailImage
+            // Update the thumbnail image
+            thumbnailImage = photoData.thumbnailImage
+
+            // Perform OCR detection on the high-resolution image data
+            recognizeText(from: photoData.imageData) { recognizedText in
+                if let text = recognizedText, !text.isEmpty {
+                    // Store the recognized text or process it further
+                    self.recognizedText = text
+                }
+                print(self.recognizedText)
             }
-            savePhoto(imageData: photoData.imageData)
+
+            // Save the photo to the photo library
+            do {
+                try await photoCollection.addImage(photoData.imageData)
+            } catch {
+                print("Error saving photo: \(error.localizedDescription)")
+                // Handle the error further if needed, e.g., show an alert to the user
+            }
         }
     }
+
+    func recognizeText(from imageData: Data, completion: @escaping (String?) -> Void) {
+        guard let cgImage = UIImage(data: imageData)?.cgImage else {
+            completion(nil)
+            return
+        }
+
+        let request = VNRecognizeTextRequest { request, error in
+            guard let observations = request.results as? [VNRecognizedTextObservation], error == nil else {
+                completion(nil)
+                return
+            }
+            
+            let text = observations.compactMap({
+                $0.topCandidates(1).first?.string
+            }).joined(separator: " ")
+            
+            completion(text)
+        }
+
+        let handler = VNImageRequestHandler(cgImage: cgImage, options: [:])
+        do {
+            try handler.perform([request])
+        } catch {
+            print("Error on text recognition: \(error)")
+            completion(nil)
+        }
+    }
+
     
     private func unpackPhoto(_ photo: AVCapturePhoto) -> PhotoData? {
         guard let imageData = photo.fileDataRepresentation() else { return nil }
@@ -88,6 +125,7 @@ final class DataModel: ObservableObject {
         Task {
             do {
                 try await photoCollection.addImage(imageData)
+                
                 logger.debug("Added image data to photo collection.")
             } catch let error {
                 logger.error("Failed to add image to photo collection: \(error.localizedDescription)")
