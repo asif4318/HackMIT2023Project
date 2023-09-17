@@ -7,13 +7,21 @@ from plaid.model.products import Products
 from plaid.model.accounts_balance_get_request import AccountsBalanceGetRequest
 from plaid.model.transactions_get_request import TransactionsGetRequest
 from plaid.model.transactions_get_request_options import TransactionsGetRequestOptions
-
+from ibm_watson_machine_learning.foundation_models.utils.enums import ModelTypes
+from ibm_watson_machine_learning.foundation_models import Model
+import os
+import dotenv
 from fastapi import FastAPI
 import uvicorn
 from datetime import datetime
+from langchain.llms import OpenAI
+from langchain.chat_models import ChatOpenAI
 import json
 
+dotenv.load_dotenv()
+
 app = FastAPI()
+chat_model = ChatOpenAI(openai_api_key=os.getenv('OPENAPI_KEY'))
 
 configuration = plaid.Configuration(
     host = plaid.Environment.Sandbox,
@@ -23,8 +31,24 @@ configuration = plaid.Configuration(
     }
 )
 
+waston_credentials = {
+    "url"    : "https://us-south.ml.cloud.ibm.com",
+    "apikey" : os.getenv('IBM_CLOUD_KEY')
+}
+
+model_id = ModelTypes.LLAMA_2_70B_CHAT
+project_id = os.getenv('WATSON_PROJECT_KEY')
+gen_parms = None
+space_id = None
+verify = False
+
+
 api_client = plaid.ApiClient(configuration)
 client = plaid_api.PlaidApi(api_client)
+
+
+model = Model( model_id, waston_credentials, gen_parms, project_id, space_id, verify )
+
 
 def get_sandbox():
     '''Returns data for sandbox user: -> {access_token, item_id, request_id}'''
@@ -65,8 +89,12 @@ def get_transactions():
     
 
 @app.get('/receipt/analyze')
-def analyze_receipt():
+def analyze_receipt(receipt_text: str):
+    #TODO: Create a prompt that is good at analyzing receipts and telling them what they spent their money on
     print('Analyzing Receipt')
+    prompt = 'You are a receipt analyzer that analyzes this receipt READING EACH ITEM BOUGHT, ITS COST, AND THE TOTAL. Keep it short and concise'
+    text = chat_model.predict(prompt + ' ' + receipt_text)
+    return {"output": text, 'timestamp': datetime.now()}
 
 
 if __name__ == '__main__':
