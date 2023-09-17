@@ -15,7 +15,7 @@ final class DataModel: ObservableObject {
     let photoCollection = PhotoCollection(smartAlbum: .smartAlbumUserLibrary)
 
     let ocr = OCRViewModel()
-    let api = LLM_API()
+//    let api = LLM_API()
     
     @Published var viewfinderImage: Image?
     @Published var thumbnailImage: Image?
@@ -67,8 +67,8 @@ final class DataModel: ObservableObject {
                 if let text = recognizedText, !text.isEmpty {
                     // Store the recognized text or process it further
                     self.recognizedText = text
-                    let output = self.api.analyzeReceipt(receipt_data: self.recognizedText)
-                    print(output)
+//                    self.output = self.api.analyzeReceipt(receipt_data: self.recognizedText)
+//                    print("API Response: ", output)
                 }
                 print(self.recognizedText)
             }

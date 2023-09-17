@@ -23,37 +23,39 @@
 		1D1A4A432AB626B8004CCAF8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A422AB626B8004CCAF8 /* DataModel.swift */; };
 		1D1A4A452AB626D4004CCAF8 /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A442AB626D4004CCAF8 /* PhotoAsset.swift */; };
 		1D1A4A472AB626E6004CCAF8 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */; };
-		1D1A4A492AB62702004CCAF8 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */; };
 		1D1A4A4B2AB62718004CCAF8 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */; };
 		1D1A4A4F2AB647F1004CCAF8 /* IDScanCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4E2AB647F1004CCAF8 /* IDScanCameraView.swift */; };
-		1D1A4A6D2AB6D686004CCAF8 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1A4A592AB6D38E004CCAF8 /* Intents.framework */; };
-		1D1A4A702AB6D686004CCAF8 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A6F2AB6D686004CCAF8 /* IntentHandler.swift */; };
-		1D1A4A782AB6D686004CCAF8 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1A4A772AB6D686004CCAF8 /* IntentsUI.framework */; };
-		1D1A4A7B2AB6D687004CCAF8 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A7A2AB6D687004CCAF8 /* IntentViewController.swift */; };
-		1D1A4A7E2AB6D687004CCAF8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1A4A7C2AB6D687004CCAF8 /* MainInterface.storyboard */; };
-		1D1A4A822AB6D687004CCAF8 /* FinSightIntentUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1D1A4A762AB6D686004CCAF8 /* FinSightIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1D1A4A852AB6D687004CCAF8 /* FinSightIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1D1A4A6C2AB6D686004CCAF8 /* FinSightIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1D1A4A902AB6DF60004CCAF8 /* FinSightIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A8F2AB6DF60004CCAF8 /* FinSightIntent.intentdefinition */; };
-		1D1A4A912AB6DF60004CCAF8 /* FinSightIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A8F2AB6DF60004CCAF8 /* FinSightIntent.intentdefinition */; };
-		1D1A4A932AB6E254004CCAF8 /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A922AB6E254004CCAF8 /* FinSightIntentHandler.swift */; };
-		1D1A4A942AB6E254004CCAF8 /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A922AB6E254004CCAF8 /* FinSightIntentHandler.swift */; };
-		1D1A4A962AB6E442004CCAF8 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A402AB62612004CCAF8 /* Camera.swift */; };
-		1D1A4A972AB6E442004CCAF8 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A402AB62612004CCAF8 /* Camera.swift */; };
-		1D1A4A9A2AB6EAC9004CCAF8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A422AB626B8004CCAF8 /* DataModel.swift */; };
-		1D1A4A9B2AB6EAF7004CCAF8 /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A922AB6E254004CCAF8 /* FinSightIntentHandler.swift */; };
-		1D1A4A9C2AB6EAFC004CCAF8 /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A3E2AB625D3004CCAF8 /* CachedImageManager.swift */; };
-		1D1A4A9D2AB6EAFD004CCAF8 /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A3E2AB625D3004CCAF8 /* CachedImageManager.swift */; };
-		1D1A4A9E2AB6EAFF004CCAF8 /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A442AB626D4004CCAF8 /* PhotoAsset.swift */; };
-		1D1A4A9F2AB6EAFF004CCAF8 /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A442AB626D4004CCAF8 /* PhotoAsset.swift */; };
-		1D1A4AA02AB6EB03004CCAF8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A422AB626B8004CCAF8 /* DataModel.swift */; };
-		1D1A4AA12AB6EB06004CCAF8 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */; };
-		1D1A4AA22AB6EB06004CCAF8 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */; };
-		1D1A4AA32AB6EB08004CCAF8 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */; };
-		1D1A4AA42AB6EB09004CCAF8 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */; };
-		1D1A4AA52AB6EB0B004CCAF8 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */; };
-		1D1A4AA62AB6EB0B004CCAF8 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */; };
-		1D1A4AA72AB6EB11004CCAF8 /* OCRVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */; };
-		1D1A4AA82AB6EB11004CCAF8 /* OCRVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */; };
+		1D83003A2AB7049E00905743 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A302AB6245A004CCAF8 /* CameraView.swift */; };
+		1D83003B2AB704A000905743 /* ViewfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A322AB6249C004CCAF8 /* ViewfinderView.swift */; };
+		1D83003C2AB704A300905743 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A352AB624EC004CCAF8 /* PhotoView.swift */; };
+		1D83003D2AB704A500905743 /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A372AB6253F004CCAF8 /* ThumbnailView.swift */; };
+		1D83003E2AB704A700905743 /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A392AB62573004CCAF8 /* PhotoCollectionView.swift */; };
+		1D83003F2AB704AA00905743 /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A3B2AB62588004CCAF8 /* PhotoItemView.swift */; };
+		1DD6AD532AB6F68000AEF6BB /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD6AD522AB6F68000AEF6BB /* Intents.framework */; };
+		1DD6AD562AB6F68000AEF6BB /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD552AB6F68000AEF6BB /* IntentHandler.swift */; };
+		1DD6AD5E2AB6F68000AEF6BB /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD6AD5D2AB6F68000AEF6BB /* IntentsUI.framework */; };
+		1DD6AD612AB6F68000AEF6BB /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD602AB6F68000AEF6BB /* IntentViewController.swift */; };
+		1DD6AD642AB6F68000AEF6BB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6AD622AB6F68000AEF6BB /* MainInterface.storyboard */; };
+		1DD6AD682AB6F68000AEF6BB /* FinSightIntentUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1DD6AD5C2AB6F68000AEF6BB /* FinSightIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DD6AD6B2AB6F68000AEF6BB /* FinSightIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1DD6AD502AB6F68000AEF6BB /* FinSightIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DD6AD732AB6F69800AEF6BB /* FinsightIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD722AB6F69800AEF6BB /* FinsightIntents.intentdefinition */; };
+		1DD6AD742AB6F8D900AEF6BB /* FinsightIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD722AB6F69800AEF6BB /* FinsightIntents.intentdefinition */; };
+		1DD6AD752AB6F8DA00AEF6BB /* FinsightIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD722AB6F69800AEF6BB /* FinsightIntents.intentdefinition */; };
+		1DD6AD772AB6F91B00AEF6BB /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD762AB6F91B00AEF6BB /* FinSightIntentHandler.swift */; };
+		1DD6AD782AB6F91D00AEF6BB /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD762AB6F91B00AEF6BB /* FinSightIntentHandler.swift */; };
+		1DD6AD7A2AB6F93900AEF6BB /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD762AB6F91B00AEF6BB /* FinSightIntentHandler.swift */; };
+		1DD6AD7B2AB7027700AEF6BB /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A402AB62612004CCAF8 /* Camera.swift */; };
+		1DD6AD7C2AB7027A00AEF6BB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A422AB626B8004CCAF8 /* DataModel.swift */; };
+		1DD6AD7D2AB7032000AEF6BB /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A442AB626D4004CCAF8 /* PhotoAsset.swift */; };
+		1DD6AD7E2AB7032300AEF6BB /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A3E2AB625D3004CCAF8 /* CachedImageManager.swift */; };
+		1DD6AD7F2AB7032700AEF6BB /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */; };
+		1DD6AD812AB7032B00AEF6BB /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */; };
+		1DD6AD822AB7032B00AEF6BB /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */; };
+		1DD6AD832AB7032E00AEF6BB /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */; };
+		1DD6AD842AB7033100AEF6BB /* OCRVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */; };
+		1DD6AD852AB7033300AEF6BB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7A5252AB6D240000863B6 /* API.swift */; };
+		1DD6AD862AB7033600AEF6BB /* FinSightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A1D2AB6115A004CCAF8 /* FinSightApp.swift */; };
+		1DD6AD872AB7033900AEF6BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A1F2AB6115A004CCAF8 /* ContentView.swift */; };
 		8AB7A5242AB6D215000863B6 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB7A5232AB6D215000863B6 /* PythonKit */; };
 		8AB7A5262AB6D240000863B6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7A5252AB6D240000863B6 /* API.swift */; };
 		8AB7A5282AB6D3E2000863B6 /* env.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8AB7A5272AB6D3E2000863B6 /* env.txt */; };
@@ -61,18 +63,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D1A4A802AB6D687004CCAF8 /* PBXContainerItemProxy */ = {
+		1DD6AD662AB6F68000AEF6BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D1A4A122AB6115A004CCAF8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D1A4A752AB6D686004CCAF8;
+			remoteGlobalIDString = 1DD6AD5B2AB6F68000AEF6BB;
 			remoteInfo = FinSightIntentUI;
 		};
-		1D1A4A832AB6D687004CCAF8 /* PBXContainerItemProxy */ = {
+		1DD6AD692AB6F68000AEF6BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D1A4A122AB6115A004CCAF8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D1A4A6B2AB6D686004CCAF8;
+			remoteGlobalIDString = 1DD6AD4F2AB6F68000AEF6BB;
 			remoteInfo = FinSightIntent;
 		};
 /* End PBXContainerItemProxy section */
@@ -84,8 +86,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1D1A4A852AB6D687004CCAF8 /* FinSightIntent.appex in Embed Foundation Extensions */,
-				1D1A4A822AB6D687004CCAF8 /* FinSightIntentUI.appex in Embed Foundation Extensions */,
+				1DD6AD6B2AB6F68000AEF6BB /* FinSightIntent.appex in Embed Foundation Extensions */,
+				1DD6AD682AB6F68000AEF6BB /* FinSightIntentUI.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,17 +117,17 @@
 		1D1A4A4C2AB628A8004CCAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1D1A4A4E2AB647F1004CCAF8 /* IDScanCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDScanCameraView.swift; sourceTree = "<group>"; };
 		1D1A4A522AB65B16004CCAF8 /* FinSight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinSight.entitlements; sourceTree = "<group>"; };
-		1D1A4A592AB6D38E004CCAF8 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
-		1D1A4A6C2AB6D686004CCAF8 /* FinSightIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinSightIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D1A4A6F2AB6D686004CCAF8 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
-		1D1A4A712AB6D686004CCAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D1A4A762AB6D686004CCAF8 /* FinSightIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinSightIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D1A4A772AB6D686004CCAF8 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
-		1D1A4A7A2AB6D687004CCAF8 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
-		1D1A4A7D2AB6D687004CCAF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		1D1A4A7F2AB6D687004CCAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D1A4A8F2AB6DF60004CCAF8 /* FinSightIntent.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = FinSightIntent.intentdefinition; sourceTree = "<group>"; };
-		1D1A4A922AB6E254004CCAF8 /* FinSightIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinSightIntentHandler.swift; sourceTree = "<group>"; };
+		1DD6AD502AB6F68000AEF6BB /* FinSightIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinSightIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD6AD522AB6F68000AEF6BB /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		1DD6AD552AB6F68000AEF6BB /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		1DD6AD572AB6F68000AEF6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD6AD5C2AB6F68000AEF6BB /* FinSightIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinSightIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD6AD5D2AB6F68000AEF6BB /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		1DD6AD602AB6F68000AEF6BB /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		1DD6AD632AB6F68000AEF6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		1DD6AD652AB6F68000AEF6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD6AD722AB6F69800AEF6BB /* FinsightIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = FinsightIntents.intentdefinition; sourceTree = "<group>"; };
+		1DD6AD762AB6F91B00AEF6BB /* FinSightIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinSightIntentHandler.swift; sourceTree = "<group>"; };
 		8AB7A5252AB6D240000863B6 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		8AB7A5272AB6D3E2000863B6 /* env.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = env.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,19 +142,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D1A4A692AB6D686004CCAF8 /* Frameworks */ = {
+		1DD6AD4D2AB6F68000AEF6BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1A4A6D2AB6D686004CCAF8 /* Intents.framework in Frameworks */,
+				1DD6AD532AB6F68000AEF6BB /* Intents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D1A4A732AB6D686004CCAF8 /* Frameworks */ = {
+		1DD6AD592AB6F68000AEF6BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1A4A782AB6D686004CCAF8 /* IntentsUI.framework in Frameworks */,
+				1DD6AD5E2AB6F68000AEF6BB /* IntentsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,10 +164,11 @@
 		1D1A4A112AB6115A004CCAF8 = {
 			isa = PBXGroup;
 			children = (
+				1DD6AD722AB6F69800AEF6BB /* FinsightIntents.intentdefinition */,
 				1D1A4A1C2AB6115A004CCAF8 /* FinSight */,
-				1D1A4A6E2AB6D686004CCAF8 /* FinSightIntent */,
-				1D1A4A792AB6D687004CCAF8 /* FinSightIntentUI */,
-				1D1A4A582AB6D38E004CCAF8 /* Frameworks */,
+				1DD6AD542AB6F68000AEF6BB /* FinSightIntent */,
+				1DD6AD5F2AB6F68000AEF6BB /* FinSightIntentUI */,
+				1DD6AD512AB6F68000AEF6BB /* Frameworks */,
 				1D1A4A1B2AB6115A004CCAF8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -174,8 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				1D1A4A1A2AB6115A004CCAF8 /* FinSight.app */,
-				1D1A4A6C2AB6D686004CCAF8 /* FinSightIntent.appex */,
-				1D1A4A762AB6D686004CCAF8 /* FinSightIntentUI.appex */,
+				1DD6AD502AB6F68000AEF6BB /* FinSightIntent.appex */,
+				1DD6AD5C2AB6F68000AEF6BB /* FinSightIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -258,32 +261,31 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		1D1A4A582AB6D38E004CCAF8 /* Frameworks */ = {
+		1DD6AD512AB6F68000AEF6BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1D1A4A592AB6D38E004CCAF8 /* Intents.framework */,
-				1D1A4A772AB6D686004CCAF8 /* IntentsUI.framework */,
+				1DD6AD522AB6F68000AEF6BB /* Intents.framework */,
+				1DD6AD5D2AB6F68000AEF6BB /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D1A4A6E2AB6D686004CCAF8 /* FinSightIntent */ = {
+		1DD6AD542AB6F68000AEF6BB /* FinSightIntent */ = {
 			isa = PBXGroup;
 			children = (
-				1D1A4A8F2AB6DF60004CCAF8 /* FinSightIntent.intentdefinition */,
-				1D1A4A6F2AB6D686004CCAF8 /* IntentHandler.swift */,
-				1D1A4A712AB6D686004CCAF8 /* Info.plist */,
-				1D1A4A922AB6E254004CCAF8 /* FinSightIntentHandler.swift */,
+				1DD6AD552AB6F68000AEF6BB /* IntentHandler.swift */,
+				1DD6AD572AB6F68000AEF6BB /* Info.plist */,
+				1DD6AD762AB6F91B00AEF6BB /* FinSightIntentHandler.swift */,
 			);
 			path = FinSightIntent;
 			sourceTree = "<group>";
 		};
-		1D1A4A792AB6D687004CCAF8 /* FinSightIntentUI */ = {
+		1DD6AD5F2AB6F68000AEF6BB /* FinSightIntentUI */ = {
 			isa = PBXGroup;
 			children = (
-				1D1A4A7A2AB6D687004CCAF8 /* IntentViewController.swift */,
-				1D1A4A7C2AB6D687004CCAF8 /* MainInterface.storyboard */,
-				1D1A4A7F2AB6D687004CCAF8 /* Info.plist */,
+				1DD6AD602AB6F68000AEF6BB /* IntentViewController.swift */,
+				1DD6AD622AB6F68000AEF6BB /* MainInterface.storyboard */,
+				1DD6AD652AB6F68000AEF6BB /* Info.plist */,
 			);
 			path = FinSightIntentUI;
 			sourceTree = "<group>";
@@ -303,8 +305,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				1D1A4A812AB6D687004CCAF8 /* PBXTargetDependency */,
-				1D1A4A842AB6D687004CCAF8 /* PBXTargetDependency */,
+				1DD6AD672AB6F68000AEF6BB /* PBXTargetDependency */,
+				1DD6AD6A2AB6F68000AEF6BB /* PBXTargetDependency */,
 			);
 			name = FinSight;
 			packageProductDependencies = (
@@ -315,13 +317,13 @@
 			productReference = 1D1A4A1A2AB6115A004CCAF8 /* FinSight.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1D1A4A6B2AB6D686004CCAF8 /* FinSightIntent */ = {
+		1DD6AD4F2AB6F68000AEF6BB /* FinSightIntent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D1A4A892AB6D687004CCAF8 /* Build configuration list for PBXNativeTarget "FinSightIntent" */;
+			buildConfigurationList = 1DD6AD6F2AB6F68000AEF6BB /* Build configuration list for PBXNativeTarget "FinSightIntent" */;
 			buildPhases = (
-				1D1A4A682AB6D686004CCAF8 /* Sources */,
-				1D1A4A692AB6D686004CCAF8 /* Frameworks */,
-				1D1A4A6A2AB6D686004CCAF8 /* Resources */,
+				1DD6AD4C2AB6F68000AEF6BB /* Sources */,
+				1DD6AD4D2AB6F68000AEF6BB /* Frameworks */,
+				1DD6AD4E2AB6F68000AEF6BB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -329,16 +331,16 @@
 			);
 			name = FinSightIntent;
 			productName = FinSightIntent;
-			productReference = 1D1A4A6C2AB6D686004CCAF8 /* FinSightIntent.appex */;
+			productReference = 1DD6AD502AB6F68000AEF6BB /* FinSightIntent.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		1D1A4A752AB6D686004CCAF8 /* FinSightIntentUI */ = {
+		1DD6AD5B2AB6F68000AEF6BB /* FinSightIntentUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D1A4A862AB6D687004CCAF8 /* Build configuration list for PBXNativeTarget "FinSightIntentUI" */;
+			buildConfigurationList = 1DD6AD6C2AB6F68000AEF6BB /* Build configuration list for PBXNativeTarget "FinSightIntentUI" */;
 			buildPhases = (
-				1D1A4A722AB6D686004CCAF8 /* Sources */,
-				1D1A4A732AB6D686004CCAF8 /* Frameworks */,
-				1D1A4A742AB6D686004CCAF8 /* Resources */,
+				1DD6AD582AB6F68000AEF6BB /* Sources */,
+				1DD6AD592AB6F68000AEF6BB /* Frameworks */,
+				1DD6AD5A2AB6F68000AEF6BB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,7 +348,7 @@
 			);
 			name = FinSightIntentUI;
 			productName = FinSightIntentUI;
-			productReference = 1D1A4A762AB6D686004CCAF8 /* FinSightIntentUI.appex */;
+			productReference = 1DD6AD5C2AB6F68000AEF6BB /* FinSightIntentUI.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -362,10 +364,10 @@
 					1D1A4A192AB6115A004CCAF8 = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					1D1A4A6B2AB6D686004CCAF8 = {
+					1DD6AD4F2AB6F68000AEF6BB = {
 						CreatedOnToolsVersion = 15.0;
 					};
-					1D1A4A752AB6D686004CCAF8 = {
+					1DD6AD5B2AB6F68000AEF6BB = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -388,8 +390,8 @@
 			projectRoot = "";
 			targets = (
 				1D1A4A192AB6115A004CCAF8 /* FinSight */,
-				1D1A4A6B2AB6D686004CCAF8 /* FinSightIntent */,
-				1D1A4A752AB6D686004CCAF8 /* FinSightIntentUI */,
+				1DD6AD4F2AB6F68000AEF6BB /* FinSightIntent */,
+				1DD6AD5B2AB6F68000AEF6BB /* FinSightIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -405,18 +407,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D1A4A6A2AB6D686004CCAF8 /* Resources */ = {
+		1DD6AD4E2AB6F68000AEF6BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D1A4A742AB6D686004CCAF8 /* Resources */ = {
+		1DD6AD5A2AB6F68000AEF6BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1A4A7E2AB6D687004CCAF8 /* MainInterface.storyboard in Resources */,
+				1DD6AD642AB6F68000AEF6BB /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +430,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D1A4A412AB62612004CCAF8 /* Camera.swift in Sources */,
-				1D1A4A492AB62702004CCAF8 /* PhotoCollection.swift in Sources */,
-				1D1A4A932AB6E254004CCAF8 /* FinSightIntentHandler.swift in Sources */,
+				1DD6AD732AB6F69800AEF6BB /* FinsightIntents.intentdefinition in Sources */,
+				1DD6AD782AB6F91D00AEF6BB /* FinSightIntentHandler.swift in Sources */,
 				1D1A4A3C2AB62588004CCAF8 /* PhotoItemView.swift in Sources */,
 				1D1A4A202AB6115A004CCAF8 /* ContentView.swift in Sources */,
 				1D1A4A1E2AB6115A004CCAF8 /* FinSightApp.swift in Sources */,
+				1DD6AD812AB7032B00AEF6BB /* PhotoCollection.swift in Sources */,
 				1D1A4A2D2AB61A64004CCAF8 /* OCRVision.swift in Sources */,
 				1D1A4A432AB626B8004CCAF8 /* DataModel.swift in Sources */,
 				1D1A4A362AB624EC004CCAF8 /* PhotoView.swift in Sources */,
@@ -449,62 +452,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D1A4A682AB6D686004CCAF8 /* Sources */ = {
+		1DD6AD4C2AB6F68000AEF6BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1A4A9E2AB6EAFF004CCAF8 /* PhotoAsset.swift in Sources */,
-				1D1A4AA52AB6EB0B004CCAF8 /* PhotoAssetCollection.swift in Sources */,
-				1D1A4AA32AB6EB08004CCAF8 /* PhotoCollection.swift in Sources */,
-				1D1A4A9A2AB6EAC9004CCAF8 /* DataModel.swift in Sources */,
-				1D1A4A9C2AB6EAFC004CCAF8 /* CachedImageManager.swift in Sources */,
-				1D1A4A962AB6E442004CCAF8 /* Camera.swift in Sources */,
-				1D1A4AA72AB6EB11004CCAF8 /* OCRVision.swift in Sources */,
-				1D1A4AA12AB6EB06004CCAF8 /* PhotoLibrary.swift in Sources */,
-				1D1A4A902AB6DF60004CCAF8 /* FinSightIntent.intentdefinition in Sources */,
-				1D1A4A702AB6D686004CCAF8 /* IntentHandler.swift in Sources */,
-				1D1A4A942AB6E254004CCAF8 /* FinSightIntentHandler.swift in Sources */,
+				1DD6AD7C2AB7027A00AEF6BB /* DataModel.swift in Sources */,
+				1DD6AD822AB7032B00AEF6BB /* PhotoCollection.swift in Sources */,
+				1DD6AD872AB7033900AEF6BB /* ContentView.swift in Sources */,
+				1D83003D2AB704A500905743 /* ThumbnailView.swift in Sources */,
+				1D83003C2AB704A300905743 /* PhotoView.swift in Sources */,
+				1D83003A2AB7049E00905743 /* CameraView.swift in Sources */,
+				1DD6AD832AB7032E00AEF6BB /* PhotoLibrary.swift in Sources */,
+				1DD6AD7B2AB7027700AEF6BB /* Camera.swift in Sources */,
+				1D83003E2AB704A700905743 /* PhotoCollectionView.swift in Sources */,
+				1DD6AD742AB6F8D900AEF6BB /* FinsightIntents.intentdefinition in Sources */,
+				1D83003F2AB704AA00905743 /* PhotoItemView.swift in Sources */,
+				1DD6AD7F2AB7032700AEF6BB /* PhotoAssetCollection.swift in Sources */,
+				1DD6AD842AB7033100AEF6BB /* OCRVision.swift in Sources */,
+				1DD6AD7D2AB7032000AEF6BB /* PhotoAsset.swift in Sources */,
+				1DD6AD862AB7033600AEF6BB /* FinSightApp.swift in Sources */,
+				1DD6AD562AB6F68000AEF6BB /* IntentHandler.swift in Sources */,
+				1DD6AD772AB6F91B00AEF6BB /* FinSightIntentHandler.swift in Sources */,
+				1D83003B2AB704A000905743 /* ViewfinderView.swift in Sources */,
+				1DD6AD852AB7033300AEF6BB /* API.swift in Sources */,
+				1DD6AD7E2AB7032300AEF6BB /* CachedImageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D1A4A722AB6D686004CCAF8 /* Sources */ = {
+		1DD6AD582AB6F68000AEF6BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1A4AA02AB6EB03004CCAF8 /* DataModel.swift in Sources */,
-				1D1A4AA62AB6EB0B004CCAF8 /* PhotoAssetCollection.swift in Sources */,
-				1D1A4AA42AB6EB09004CCAF8 /* PhotoCollection.swift in Sources */,
-				1D1A4A972AB6E442004CCAF8 /* Camera.swift in Sources */,
-				1D1A4A912AB6DF60004CCAF8 /* FinSightIntent.intentdefinition in Sources */,
-				1D1A4A9D2AB6EAFD004CCAF8 /* CachedImageManager.swift in Sources */,
-				1D1A4AA82AB6EB11004CCAF8 /* OCRVision.swift in Sources */,
-				1D1A4AA22AB6EB06004CCAF8 /* PhotoLibrary.swift in Sources */,
-				1D1A4A9F2AB6EAFF004CCAF8 /* PhotoAsset.swift in Sources */,
-				1D1A4A9B2AB6EAF7004CCAF8 /* FinSightIntentHandler.swift in Sources */,
-				1D1A4A7B2AB6D687004CCAF8 /* IntentViewController.swift in Sources */,
+				1DD6AD752AB6F8DA00AEF6BB /* FinsightIntents.intentdefinition in Sources */,
+				1DD6AD612AB6F68000AEF6BB /* IntentViewController.swift in Sources */,
+				1DD6AD7A2AB6F93900AEF6BB /* FinSightIntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D1A4A812AB6D687004CCAF8 /* PBXTargetDependency */ = {
+		1DD6AD672AB6F68000AEF6BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D1A4A752AB6D686004CCAF8 /* FinSightIntentUI */;
-			targetProxy = 1D1A4A802AB6D687004CCAF8 /* PBXContainerItemProxy */;
+			target = 1DD6AD5B2AB6F68000AEF6BB /* FinSightIntentUI */;
+			targetProxy = 1DD6AD662AB6F68000AEF6BB /* PBXContainerItemProxy */;
 		};
-		1D1A4A842AB6D687004CCAF8 /* PBXTargetDependency */ = {
+		1DD6AD6A2AB6F68000AEF6BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D1A4A6B2AB6D686004CCAF8 /* FinSightIntent */;
-			targetProxy = 1D1A4A832AB6D687004CCAF8 /* PBXContainerItemProxy */;
+			target = 1DD6AD4F2AB6F68000AEF6BB /* FinSightIntent */;
+			targetProxy = 1DD6AD692AB6F68000AEF6BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1D1A4A7C2AB6D687004CCAF8 /* MainInterface.storyboard */ = {
+		1DD6AD622AB6F68000AEF6BB /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1D1A4A7D2AB6D687004CCAF8 /* Base */,
+				1DD6AD632AB6F68000AEF6BB /* Base */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -707,7 +711,7 @@
 			};
 			name = Release;
 		};
-		1D1A4A872AB6D687004CCAF8 /* Debug */ = {
+		1DD6AD6D2AB6F68000AEF6BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -717,8 +721,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FinSightIntentUI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FinSightIntentUI;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSiriUsageDescription = "Product uses Siri";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -734,7 +738,7 @@
 			};
 			name = Debug;
 		};
-		1D1A4A882AB6D687004CCAF8 /* Release */ = {
+		1DD6AD6E2AB6F68000AEF6BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -744,8 +748,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FinSightIntentUI/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FinSightIntentUI;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSiriUsageDescription = "Product uses Siri";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -761,7 +765,7 @@
 			};
 			name = Release;
 		};
-		1D1A4A8A2AB6D687004CCAF8 /* Debug */ = {
+		1DD6AD702AB6F68000AEF6BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -772,6 +776,7 @@
 				INFOPLIST_FILE = FinSightIntent/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FinSightIntent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSiriUsageDescription = "Product uses Siri";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -787,7 +792,7 @@
 			};
 			name = Debug;
 		};
-		1D1A4A8B2AB6D687004CCAF8 /* Release */ = {
+		1DD6AD712AB6F68000AEF6BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -798,6 +803,7 @@
 				INFOPLIST_FILE = FinSightIntent/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FinSightIntent;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSiriUsageDescription = "Product uses Siri";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -834,20 +840,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D1A4A862AB6D687004CCAF8 /* Build configuration list for PBXNativeTarget "FinSightIntentUI" */ = {
+		1DD6AD6C2AB6F68000AEF6BB /* Build configuration list for PBXNativeTarget "FinSightIntentUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D1A4A872AB6D687004CCAF8 /* Debug */,
-				1D1A4A882AB6D687004CCAF8 /* Release */,
+				1DD6AD6D2AB6F68000AEF6BB /* Debug */,
+				1DD6AD6E2AB6F68000AEF6BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D1A4A892AB6D687004CCAF8 /* Build configuration list for PBXNativeTarget "FinSightIntent" */ = {
+		1DD6AD6F2AB6F68000AEF6BB /* Build configuration list for PBXNativeTarget "FinSightIntent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D1A4A8A2AB6D687004CCAF8 /* Debug */,
-				1D1A4A8B2AB6D687004CCAF8 /* Release */,
+				1DD6AD702AB6F68000AEF6BB /* Debug */,
+				1DD6AD712AB6F68000AEF6BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
