@@ -40,7 +40,7 @@ We envision a world where financial independence knows no barriers, where everyo
 
 ### Text-to-Speech Magic
 
-Thanks to IBM Watson, FinSight works like magic. It transforms complex financial jargon and data into natural, easy-to-understand speech. Our app reads financial information aloud to users, ensuring they never miss a beat.
+Thanks to IBM Watson, ChatGPT, and Apple's Vision Framework, FinSight works like magic. It reads and transforms complex financial jargon and data into natural, easy-to-understand speech. Our app reads financial information aloud to users, ensuring they never miss a beat.
 
 ### Plaid for Real-Time Financial Data
 
