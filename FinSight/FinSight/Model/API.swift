@@ -5,22 +5,20 @@
 //  Created by Asif Islam on 9/17/23.
 //
 
-import Foundation
+import AVFoundation
 import PythonKit
 import LangChain
 
 class LLM_API {
+    private var speechSynthesizer = AVSpeechSynthesizer()
     init() {
         
     }
-    
     
     func getPythonInfo() {
         PythonLibrary.useVersion(3, 10)
         print(Python.version)
     }
-    
-    
     
     func analyzeReceipt(receipt_data:String) -> String {
         var output = ""
@@ -48,6 +46,14 @@ class LLM_API {
             var output = await chatgpt_chain.predict(args: input)
             print(output["Answer"]!)
             print("FINISHED ANALYZING RECEIPT")
+            let utterance = AVSpeechUtterance(string: output["Answer"]!)
+            utterance.pitchMultiplier = 1.0
+            utterance.rate = 0.5
+            utterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+             
+            speechSynthesizer.speak(utterance)
+            print("did you hear me?")
+
             return output["Answer"]!
         }
         

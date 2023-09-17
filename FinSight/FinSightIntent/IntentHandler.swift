@@ -21,10 +21,9 @@ class IntentHandler: INExtension, INSendMessageIntentHandling, INSearchForMessag
     override func handler(for intent: INIntent) -> Any {
         // This is the default implementation.  If you want different objects to handle different intents,
         // you can override this and return the handler you want for that particular intent.
-        guard intent is FinsightIntentIntent else{
+        if intent is FinSightIntent {
             fatalError("Unhandled Intent error : \(intent)")
         }
-        
         return FinSightIntentHandler()
     }
     

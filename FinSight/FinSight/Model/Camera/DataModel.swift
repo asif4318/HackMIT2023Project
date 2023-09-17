@@ -67,10 +67,8 @@ final class DataModel: ObservableObject {
                 if let text = recognizedText, !text.isEmpty {
                     // Store the recognized text or process it further
                     self.recognizedText = text
-                    let output = self.api.analyzeReceipt(receipt_data: self.recognizedText)
-                    print(output)
+                    self.output = self.api.analyzeReceipt(receipt_data: self.recognizedText)
                 }
-                print(self.recognizedText)
             }
 
             // Save the photo to the photo library

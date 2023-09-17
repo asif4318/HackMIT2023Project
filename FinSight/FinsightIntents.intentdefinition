@@ -7,7 +7,7 @@
 	<key>INIntentDefinitionModelVersion</key>
 	<string>1.2</string>
 	<key>INIntentDefinitionNamespace</key>
-	<string>5TuKIf</string>
+	<string>xanMAW</string>
 	<key>INIntentDefinitionSystemVersion</key>
 	<string>22F82</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
@@ -21,8 +21,10 @@
 			<string>generic</string>
 			<key>INIntentConfigurable</key>
 			<true/>
+			<key>INIntentDescription</key>
+			<string>getting insight from financial documents</string>
 			<key>INIntentDescriptionID</key>
-			<string>fcXmLM</string>
+			<string>dxsE8o</string>
 			<key>INIntentManagedParameterCombinations</key>
 			<dict>
 				<key></key>
@@ -34,7 +36,7 @@
 				</dict>
 			</dict>
 			<key>INIntentName</key>
-			<string>FinsightIntent</string>
+			<string>FinSight</string>
 			<key>INIntentParameterCombinations</key>
 			<dict>
 				<key></key>
@@ -50,14 +52,10 @@
 				<key>INIntentResponseCodes</key>
 				<array>
 					<dict>
-						<key>INIntentResponseCodeConciseFormatString</key>
-						<string>${apiResponse}</string>
-						<key>INIntentResponseCodeConciseFormatStringID</key>
-						<string>ckXZOB</string>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Image taken, here is my insight. ${apiResponse}</string>
+						<string>Image Taken, here is my insight. ${apiResponse}</string>
 						<key>INIntentResponseCodeFormatStringID</key>
-						<string>yQekCm</string>
+						<string>4eOPzC</string>
 						<key>INIntentResponseCodeName</key>
 						<string>success</string>
 						<key>INIntentResponseCodeSuccess</key>
@@ -65,19 +63,21 @@
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>Oops, something went wrong</string>
+						<string>Oops, error occured.</string>
 						<key>INIntentResponseCodeFormatStringID</key>
-						<string>MwzjeP</string>
+						<string>w75YrN</string>
 						<key>INIntentResponseCodeName</key>
 						<string>failure</string>
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeFormatString</key>
-						<string>The camera seems to not be working right now.</string>
+						<string>Sorry the camera isn't working right now</string>
 						<key>INIntentResponseCodeFormatStringID</key>
-						<string>b9IjYj</string>
+						<string>57gvaP</string>
 						<key>INIntentResponseCodeName</key>
 						<string>cameraFailure</string>
+						<key>INIntentResponseCodeSuccess</key>
+						<true/>
 					</dict>
 				</array>
 				<key>INIntentResponseLastParameterTag</key>
@@ -88,7 +88,7 @@
 						<key>INIntentResponseParameterDisplayName</key>
 						<string>Api Response</string>
 						<key>INIntentResponseParameterDisplayNameID</key>
-						<string>zO3mQ0</string>
+						<string>ieRFac</string>
 						<key>INIntentResponseParameterDisplayPriority</key>
 						<integer>1</integer>
 						<key>INIntentResponseParameterName</key>
@@ -101,9 +101,9 @@
 				</array>
 			</dict>
 			<key>INIntentTitle</key>
-			<string>Finsight Intent</string>
+			<string>Fin Sight</string>
 			<key>INIntentTitleID</key>
-			<string>dzvRox</string>
+			<string>J8LxfC</string>
 			<key>INIntentType</key>
 			<string>Custom</string>
 			<key>INIntentVerb</key>
