@@ -42,6 +42,10 @@ struct CameraView: View {
                 await model.loadPhotos()
                 await model.loadThumbnail()
             }
+            .contentShape(Rectangle())
+            .onTapGesture {
+                model.camera.takePhoto()
+            }
             .navigationTitle("Camera")
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarHidden(true)
@@ -71,22 +75,22 @@ struct CameraView: View {
                 }
             }
             
-            Button {
-                model.camera.takePhoto()
-            } label: {
-                Label {
-                    Text("Take Photo")
-                } icon: {
-                    ZStack {
-                        Circle()
-                            .strokeBorder(.white, lineWidth: 3)
-                            .frame(width: 62, height: 62)
-                        Circle()
-                            .fill(.white)
-                            .frame(width: 50, height: 50)
-                    }
-                }
-            }
+//            Button {
+//                model.camera.takePhoto()
+//            } label: {
+//                Label {
+//                    Text("Take Photo")
+//                } icon: {
+//                    ZStack {
+//                        Circle()
+//                            .strokeBorder(.white, lineWidth: 3)
+//                            .frame(width: 62, height: 62)
+//                        Circle()
+//                            .fill(.white)
+//                            .frame(width: 50, height: 50)
+//                    }
+//                }
+//            }
             
             Button {
                 model.camera.switchCaptureDevice()

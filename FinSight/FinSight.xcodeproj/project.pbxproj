@@ -25,59 +25,14 @@
 		1D1A4A472AB626E6004CCAF8 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */; };
 		1D1A4A4B2AB62718004CCAF8 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */; };
 		1D1A4A4F2AB647F1004CCAF8 /* IDScanCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4E2AB647F1004CCAF8 /* IDScanCameraView.swift */; };
-		1D83003A2AB7049E00905743 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A302AB6245A004CCAF8 /* CameraView.swift */; };
-		1D83003B2AB704A000905743 /* ViewfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A322AB6249C004CCAF8 /* ViewfinderView.swift */; };
-		1D83003C2AB704A300905743 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A352AB624EC004CCAF8 /* PhotoView.swift */; };
-		1D83003D2AB704A500905743 /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A372AB6253F004CCAF8 /* ThumbnailView.swift */; };
-		1D83003E2AB704A700905743 /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A392AB62573004CCAF8 /* PhotoCollectionView.swift */; };
-		1D83003F2AB704AA00905743 /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A3B2AB62588004CCAF8 /* PhotoItemView.swift */; };
-		1DD6AD532AB6F68000AEF6BB /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD6AD522AB6F68000AEF6BB /* Intents.framework */; };
-		1DD6AD562AB6F68000AEF6BB /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD552AB6F68000AEF6BB /* IntentHandler.swift */; };
-		1DD6AD5E2AB6F68000AEF6BB /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD6AD5D2AB6F68000AEF6BB /* IntentsUI.framework */; };
-		1DD6AD612AB6F68000AEF6BB /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD602AB6F68000AEF6BB /* IntentViewController.swift */; };
-		1DD6AD642AB6F68000AEF6BB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6AD622AB6F68000AEF6BB /* MainInterface.storyboard */; };
-		1DD6AD682AB6F68000AEF6BB /* FinSightIntentUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1DD6AD5C2AB6F68000AEF6BB /* FinSightIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		1DD6AD6B2AB6F68000AEF6BB /* FinSightIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1DD6AD502AB6F68000AEF6BB /* FinSightIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1DD6AD732AB6F69800AEF6BB /* FinsightIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD722AB6F69800AEF6BB /* FinsightIntents.intentdefinition */; };
-		1DD6AD742AB6F8D900AEF6BB /* FinsightIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD722AB6F69800AEF6BB /* FinsightIntents.intentdefinition */; };
-		1DD6AD752AB6F8DA00AEF6BB /* FinsightIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD722AB6F69800AEF6BB /* FinsightIntents.intentdefinition */; };
-		1DD6AD772AB6F91B00AEF6BB /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD762AB6F91B00AEF6BB /* FinSightIntentHandler.swift */; };
 		1DD6AD782AB6F91D00AEF6BB /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD762AB6F91B00AEF6BB /* FinSightIntentHandler.swift */; };
-		1DD6AD7A2AB6F93900AEF6BB /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6AD762AB6F91B00AEF6BB /* FinSightIntentHandler.swift */; };
-		1DD6AD7B2AB7027700AEF6BB /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A402AB62612004CCAF8 /* Camera.swift */; };
-		1DD6AD7C2AB7027A00AEF6BB /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A422AB626B8004CCAF8 /* DataModel.swift */; };
-		1DD6AD7D2AB7032000AEF6BB /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A442AB626D4004CCAF8 /* PhotoAsset.swift */; };
-		1DD6AD7E2AB7032300AEF6BB /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A3E2AB625D3004CCAF8 /* CachedImageManager.swift */; };
-		1DD6AD7F2AB7032700AEF6BB /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */; };
 		1DD6AD812AB7032B00AEF6BB /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */; };
-		1DD6AD822AB7032B00AEF6BB /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */; };
-		1DD6AD832AB7032E00AEF6BB /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */; };
-		1DD6AD842AB7033100AEF6BB /* OCRVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */; };
-		1DD6AD852AB7033300AEF6BB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7A5252AB6D240000863B6 /* API.swift */; };
-		1DD6AD862AB7033600AEF6BB /* FinSightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A1D2AB6115A004CCAF8 /* FinSightApp.swift */; };
-		1DD6AD872AB7033900AEF6BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A1F2AB6115A004CCAF8 /* ContentView.swift */; };
 		8AB7A5242AB6D215000863B6 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB7A5232AB6D215000863B6 /* PythonKit */; };
 		8AB7A5262AB6D240000863B6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7A5252AB6D240000863B6 /* API.swift */; };
 		8AB7A5282AB6D3E2000863B6 /* env.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8AB7A5272AB6D3E2000863B6 /* env.txt */; };
 		8AB7A52B2AB6D574000863B6 /* LangChain in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB7A52A2AB6D574000863B6 /* LangChain */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1DD6AD662AB6F68000AEF6BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D1A4A122AB6115A004CCAF8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DD6AD5B2AB6F68000AEF6BB;
-			remoteInfo = FinSightIntentUI;
-		};
-		1DD6AD692AB6F68000AEF6BB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D1A4A122AB6115A004CCAF8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DD6AD4F2AB6F68000AEF6BB;
-			remoteInfo = FinSightIntent;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1D1A4A652AB6D38E004CCAF8 /* Embed Foundation Extensions */ = {
@@ -86,8 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				1DD6AD6B2AB6F68000AEF6BB /* FinSightIntent.appex in Embed Foundation Extensions */,
-				1DD6AD682AB6F68000AEF6BB /* FinSightIntentUI.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -117,11 +70,9 @@
 		1D1A4A4C2AB628A8004CCAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1D1A4A4E2AB647F1004CCAF8 /* IDScanCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDScanCameraView.swift; sourceTree = "<group>"; };
 		1D1A4A522AB65B16004CCAF8 /* FinSight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinSight.entitlements; sourceTree = "<group>"; };
-		1DD6AD502AB6F68000AEF6BB /* FinSightIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinSightIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD6AD522AB6F68000AEF6BB /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		1DD6AD552AB6F68000AEF6BB /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		1DD6AD572AB6F68000AEF6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DD6AD5C2AB6F68000AEF6BB /* FinSightIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FinSightIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD6AD5D2AB6F68000AEF6BB /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		1DD6AD602AB6F68000AEF6BB /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		1DD6AD632AB6F68000AEF6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -139,22 +90,6 @@
 			files = (
 				8AB7A52B2AB6D574000863B6 /* LangChain in Frameworks */,
 				8AB7A5242AB6D215000863B6 /* PythonKit in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DD6AD4D2AB6F68000AEF6BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DD6AD532AB6F68000AEF6BB /* Intents.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DD6AD592AB6F68000AEF6BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DD6AD5E2AB6F68000AEF6BB /* IntentsUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,8 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				1D1A4A1A2AB6115A004CCAF8 /* FinSight.app */,
-				1DD6AD502AB6F68000AEF6BB /* FinSightIntent.appex */,
-				1DD6AD5C2AB6F68000AEF6BB /* FinSightIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -305,8 +238,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				1DD6AD672AB6F68000AEF6BB /* PBXTargetDependency */,
-				1DD6AD6A2AB6F68000AEF6BB /* PBXTargetDependency */,
 			);
 			name = FinSight;
 			packageProductDependencies = (
@@ -316,40 +247,6 @@
 			productName = FinSight;
 			productReference = 1D1A4A1A2AB6115A004CCAF8 /* FinSight.app */;
 			productType = "com.apple.product-type.application";
-		};
-		1DD6AD4F2AB6F68000AEF6BB /* FinSightIntent */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DD6AD6F2AB6F68000AEF6BB /* Build configuration list for PBXNativeTarget "FinSightIntent" */;
-			buildPhases = (
-				1DD6AD4C2AB6F68000AEF6BB /* Sources */,
-				1DD6AD4D2AB6F68000AEF6BB /* Frameworks */,
-				1DD6AD4E2AB6F68000AEF6BB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FinSightIntent;
-			productName = FinSightIntent;
-			productReference = 1DD6AD502AB6F68000AEF6BB /* FinSightIntent.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
-		1DD6AD5B2AB6F68000AEF6BB /* FinSightIntentUI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DD6AD6C2AB6F68000AEF6BB /* Build configuration list for PBXNativeTarget "FinSightIntentUI" */;
-			buildPhases = (
-				1DD6AD582AB6F68000AEF6BB /* Sources */,
-				1DD6AD592AB6F68000AEF6BB /* Frameworks */,
-				1DD6AD5A2AB6F68000AEF6BB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FinSightIntentUI;
-			productName = FinSightIntentUI;
-			productReference = 1DD6AD5C2AB6F68000AEF6BB /* FinSightIntentUI.appex */;
-			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -362,12 +259,6 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					1D1A4A192AB6115A004CCAF8 = {
-						CreatedOnToolsVersion = 15.0;
-					};
-					1DD6AD4F2AB6F68000AEF6BB = {
-						CreatedOnToolsVersion = 15.0;
-					};
-					1DD6AD5B2AB6F68000AEF6BB = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -390,8 +281,6 @@
 			projectRoot = "";
 			targets = (
 				1D1A4A192AB6115A004CCAF8 /* FinSight */,
-				1DD6AD4F2AB6F68000AEF6BB /* FinSightIntent */,
-				1DD6AD5B2AB6F68000AEF6BB /* FinSightIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -404,21 +293,6 @@
 				8AB7A5282AB6D3E2000863B6 /* env.txt in Resources */,
 				1D1A4A252AB6115C004CCAF8 /* Preview Assets.xcassets in Resources */,
 				1D1A4A222AB6115C004CCAF8 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DD6AD4E2AB6F68000AEF6BB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DD6AD5A2AB6F68000AEF6BB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DD6AD642AB6F68000AEF6BB /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,57 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DD6AD4C2AB6F68000AEF6BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DD6AD7C2AB7027A00AEF6BB /* DataModel.swift in Sources */,
-				1DD6AD822AB7032B00AEF6BB /* PhotoCollection.swift in Sources */,
-				1DD6AD872AB7033900AEF6BB /* ContentView.swift in Sources */,
-				1D83003D2AB704A500905743 /* ThumbnailView.swift in Sources */,
-				1D83003C2AB704A300905743 /* PhotoView.swift in Sources */,
-				1D83003A2AB7049E00905743 /* CameraView.swift in Sources */,
-				1DD6AD832AB7032E00AEF6BB /* PhotoLibrary.swift in Sources */,
-				1DD6AD7B2AB7027700AEF6BB /* Camera.swift in Sources */,
-				1D83003E2AB704A700905743 /* PhotoCollectionView.swift in Sources */,
-				1DD6AD742AB6F8D900AEF6BB /* FinsightIntents.intentdefinition in Sources */,
-				1D83003F2AB704AA00905743 /* PhotoItemView.swift in Sources */,
-				1DD6AD7F2AB7032700AEF6BB /* PhotoAssetCollection.swift in Sources */,
-				1DD6AD842AB7033100AEF6BB /* OCRVision.swift in Sources */,
-				1DD6AD7D2AB7032000AEF6BB /* PhotoAsset.swift in Sources */,
-				1DD6AD862AB7033600AEF6BB /* FinSightApp.swift in Sources */,
-				1DD6AD562AB6F68000AEF6BB /* IntentHandler.swift in Sources */,
-				1DD6AD772AB6F91B00AEF6BB /* FinSightIntentHandler.swift in Sources */,
-				1D83003B2AB704A000905743 /* ViewfinderView.swift in Sources */,
-				1DD6AD852AB7033300AEF6BB /* API.swift in Sources */,
-				1DD6AD7E2AB7032300AEF6BB /* CachedImageManager.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DD6AD582AB6F68000AEF6BB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DD6AD752AB6F8DA00AEF6BB /* FinsightIntents.intentdefinition in Sources */,
-				1DD6AD612AB6F68000AEF6BB /* IntentViewController.swift in Sources */,
-				1DD6AD7A2AB6F93900AEF6BB /* FinSightIntentHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1DD6AD672AB6F68000AEF6BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1DD6AD5B2AB6F68000AEF6BB /* FinSightIntentUI */;
-			targetProxy = 1DD6AD662AB6F68000AEF6BB /* PBXContainerItemProxy */;
-		};
-		1DD6AD6A2AB6F68000AEF6BB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1DD6AD4F2AB6F68000AEF6BB /* FinSightIntent */;
-			targetProxy = 1DD6AD692AB6F68000AEF6BB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1DD6AD622AB6F68000AEF6BB /* MainInterface.storyboard */ = {
@@ -653,6 +477,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Requires Access to Camera";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Requires Photo Library Usage";
 				INFOPLIST_KEY_NSSiriUsageDescription = "Requires Voice Capture from Siri";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We will require access to audio";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -691,6 +516,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "Requires Access to Camera";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Requires Photo Library Usage";
 				INFOPLIST_KEY_NSSiriUsageDescription = "Requires Voice Capture from Siri";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We will require access to audio";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -705,114 +531,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.beta.hackmit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		1DD6AD6D2AB6F68000AEF6BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7BYH4HTJ4D;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FinSightIntentUI/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = FinSightIntentUI;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSSiriUsageDescription = "Product uses Siri";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.beta.hackmit.FinSightIntentUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1DD6AD6E2AB6F68000AEF6BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7BYH4HTJ4D;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FinSightIntentUI/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = FinSightIntentUI;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSSiriUsageDescription = "Product uses Siri";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.beta.hackmit.FinSightIntentUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		1DD6AD702AB6F68000AEF6BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7BYH4HTJ4D;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FinSightIntent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = FinSightIntent;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSSiriUsageDescription = "Product uses Siri";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.beta.hackmit.FinSightIntent;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1DD6AD712AB6F68000AEF6BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7BYH4HTJ4D;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FinSightIntent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = FinSightIntent;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSSiriUsageDescription = "Product uses Siri";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.beta.hackmit.FinSightIntent;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -836,24 +554,6 @@
 			buildConfigurations = (
 				1D1A4A292AB6115C004CCAF8 /* Debug */,
 				1D1A4A2A2AB6115C004CCAF8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DD6AD6C2AB6F68000AEF6BB /* Build configuration list for PBXNativeTarget "FinSightIntentUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DD6AD6D2AB6F68000AEF6BB /* Debug */,
-				1DD6AD6E2AB6F68000AEF6BB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DD6AD6F2AB6F68000AEF6BB /* Build configuration list for PBXNativeTarget "FinSightIntent" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DD6AD702AB6F68000AEF6BB /* Debug */,
-				1DD6AD712AB6F68000AEF6BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
