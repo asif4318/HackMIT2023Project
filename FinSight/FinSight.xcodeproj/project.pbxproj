@@ -37,9 +37,23 @@
 		1D1A4A912AB6DF60004CCAF8 /* FinSightIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A8F2AB6DF60004CCAF8 /* FinSightIntent.intentdefinition */; };
 		1D1A4A932AB6E254004CCAF8 /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A922AB6E254004CCAF8 /* FinSightIntentHandler.swift */; };
 		1D1A4A942AB6E254004CCAF8 /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A922AB6E254004CCAF8 /* FinSightIntentHandler.swift */; };
-		1D1A4A952AB6E254004CCAF8 /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A922AB6E254004CCAF8 /* FinSightIntentHandler.swift */; };
 		1D1A4A962AB6E442004CCAF8 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A402AB62612004CCAF8 /* Camera.swift */; };
 		1D1A4A972AB6E442004CCAF8 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A402AB62612004CCAF8 /* Camera.swift */; };
+		1D1A4A9A2AB6EAC9004CCAF8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A422AB626B8004CCAF8 /* DataModel.swift */; };
+		1D1A4A9B2AB6EAF7004CCAF8 /* FinSightIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A922AB6E254004CCAF8 /* FinSightIntentHandler.swift */; };
+		1D1A4A9C2AB6EAFC004CCAF8 /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A3E2AB625D3004CCAF8 /* CachedImageManager.swift */; };
+		1D1A4A9D2AB6EAFD004CCAF8 /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A3E2AB625D3004CCAF8 /* CachedImageManager.swift */; };
+		1D1A4A9E2AB6EAFF004CCAF8 /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A442AB626D4004CCAF8 /* PhotoAsset.swift */; };
+		1D1A4A9F2AB6EAFF004CCAF8 /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A442AB626D4004CCAF8 /* PhotoAsset.swift */; };
+		1D1A4AA02AB6EB03004CCAF8 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A422AB626B8004CCAF8 /* DataModel.swift */; };
+		1D1A4AA12AB6EB06004CCAF8 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */; };
+		1D1A4AA22AB6EB06004CCAF8 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */; };
+		1D1A4AA32AB6EB08004CCAF8 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */; };
+		1D1A4AA42AB6EB09004CCAF8 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A482AB62702004CCAF8 /* PhotoCollection.swift */; };
+		1D1A4AA52AB6EB0B004CCAF8 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */; };
+		1D1A4AA62AB6EB0B004CCAF8 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */; };
+		1D1A4AA72AB6EB11004CCAF8 /* OCRVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */; };
+		1D1A4AA82AB6EB11004CCAF8 /* OCRVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -419,7 +433,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1A4A9E2AB6EAFF004CCAF8 /* PhotoAsset.swift in Sources */,
+				1D1A4AA52AB6EB0B004CCAF8 /* PhotoAssetCollection.swift in Sources */,
+				1D1A4AA32AB6EB08004CCAF8 /* PhotoCollection.swift in Sources */,
+				1D1A4A9A2AB6EAC9004CCAF8 /* DataModel.swift in Sources */,
+				1D1A4A9C2AB6EAFC004CCAF8 /* CachedImageManager.swift in Sources */,
 				1D1A4A962AB6E442004CCAF8 /* Camera.swift in Sources */,
+				1D1A4AA72AB6EB11004CCAF8 /* OCRVision.swift in Sources */,
+				1D1A4AA12AB6EB06004CCAF8 /* PhotoLibrary.swift in Sources */,
 				1D1A4A902AB6DF60004CCAF8 /* FinSightIntent.intentdefinition in Sources */,
 				1D1A4A702AB6D686004CCAF8 /* IntentHandler.swift in Sources */,
 				1D1A4A942AB6E254004CCAF8 /* FinSightIntentHandler.swift in Sources */,
@@ -430,10 +451,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1A4AA02AB6EB03004CCAF8 /* DataModel.swift in Sources */,
+				1D1A4AA62AB6EB0B004CCAF8 /* PhotoAssetCollection.swift in Sources */,
+				1D1A4AA42AB6EB09004CCAF8 /* PhotoCollection.swift in Sources */,
 				1D1A4A972AB6E442004CCAF8 /* Camera.swift in Sources */,
 				1D1A4A912AB6DF60004CCAF8 /* FinSightIntent.intentdefinition in Sources */,
+				1D1A4A9D2AB6EAFD004CCAF8 /* CachedImageManager.swift in Sources */,
+				1D1A4AA82AB6EB11004CCAF8 /* OCRVision.swift in Sources */,
+				1D1A4AA22AB6EB06004CCAF8 /* PhotoLibrary.swift in Sources */,
+				1D1A4A9F2AB6EAFF004CCAF8 /* PhotoAsset.swift in Sources */,
+				1D1A4A9B2AB6EAF7004CCAF8 /* FinSightIntentHandler.swift in Sources */,
 				1D1A4A7B2AB6D687004CCAF8 /* IntentViewController.swift in Sources */,
-				1D1A4A952AB6E254004CCAF8 /* FinSightIntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

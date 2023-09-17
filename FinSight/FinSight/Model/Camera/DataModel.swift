@@ -13,11 +13,12 @@ import Vision
 final class DataModel: ObservableObject {
     let camera = Camera()
     let photoCollection = PhotoCollection(smartAlbum: .smartAlbumUserLibrary)
-    let ocr = OCRViewModel()
+    let ocr = OCRViewModel() 
     
     @Published var viewfinderImage: Image?
     @Published var thumbnailImage: Image?
     @Published var recognizedText: String = ""
+    private var output = ""
     
     var didDetectDocument = false
     var isPhotosLoaded = false
@@ -46,6 +47,9 @@ final class DataModel: ObservableObject {
     }
     
     // In DataModel.swift
+    func fetchOutput() -> String {
+        return !output.isEmpty ? output : "No API output"
+    }
 
     func handleCameraPhotos() async {
         let unpackedPhotoStream = camera.photoStream.compactMap { photo in
