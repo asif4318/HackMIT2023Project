@@ -34,7 +34,7 @@ The inspiration behind FinSight is to break down barriers and make financial man
 
 ### Our Vision
 
-We envision a world where financial independence knows no barriers, where everyone can effectively manage their money. FinSight is our commitment to realizing this vision. It's not just an app; it's a catalyst for change.
+We envision a world where financial independence knows no barriers, and where everyone can effectively manage their money. FinSight is our commitment to realizing this vision. It's not just an app; it's a catalyst for change.
 
 ## How FinSight Works
 
@@ -44,7 +44,7 @@ Thanks to IBM Watson, ChatGPT, and Apple's Vision Framework, FinSight works like
 
 ### Plaid for Real-Time Financial Data
 
-To ensure that FinSight provides users with up-to-date and accurate financial information, we integrated Plaid's data transfer network into our application. Plaid's robust financial data infrastructure allows us to securely access users' live bank account balances and transactions. This integration is pivotal in enabling users to stay on top of their finances effortlessly.
+To ensure that FinSight provides users with up-to-date and accurate financial information, we integrated Plaid's data transfer network into our application. Plaid's robust financial data infrastructure allows us to access users' live bank account balances and transactions securely. This integration is pivotal in enabling users to effortlessly stay on top of their finances.
 
 The key steps involved in leveraging Plaid's data transfer network within FinSight included:
 
@@ -80,11 +80,11 @@ To provide a seamless "vision" for personal finance, we integrated Apple's versa
 
 During the development of FinSight, we encountered several challenges. Some of the major ones included:
 
-- **Integrating Text-to-Speech**: Implementing IBM Watson's Text-to-Speech technology seamlessly within the app presented technical challenges that required creative problem-solving.
+- **Integrating Text-to-Speech**: Implementing Apple's Siri Text-to-Speech technology seamlessly within the app presented technical challenges that required creative response engineering.
 
-- **Designing for Accessibility**: Ensuring that the user interface was genuinely accessible to elderly individuals with visual impairments and that SiriKit and AVFoundation Speech features were seamlessly integrated was a complex task.
+- **Designing for Accessibility**: Ensuring that the user interface was genuinely accessible to elderly individuals with visual impairments and that SiriKit and AVFoundation Speech features while having Apple's Vision framework be the user's supporting eyes was a complex task.
 
-- **Data Security**: Handling sensitive financial data securely was a top priority, and we invested significant effort in implementing robust security measures.
+- **Data Security**: Handling sensitive financial data securely was a top priority, and we invested significant thought in choosing the right services and technology to handle these data.
 
 ## Accomplishments That We're Proud Of
 
@@ -106,13 +106,11 @@ The journey for FinSight doesn't stop here. Our future plans include:
 
 - **Expanding Platform Compatibility**: We aim to make FinSight available on a wider range of devices and platforms to reach an even broader audience.
 
-- **
-
-Enhanced Features**: We plan to continuously improve the app by adding more features and functionality based on user feedback and evolving needs.
+- **Enhanced Features**: We plan to continuously improve the app by adding more features and functionality based on user feedback and evolving needs such as grocery pricing analysis, cash-counting, and many more.
 
 - **Community Engagement**: Building a strong community around FinSight to gather insights, share experiences, and create a supportive environment for users.
 
-- **Global Outreach**: Expanding our reach to make FinSight accessible to elderly individuals with visual impairments worldwide.
+- **Global Outreach**: Expanding our reach to make FinSight accessible to elderly individuals with visual impairments worldwide. The technology we used already supported a plethora of languages, but it is still a continuing journey to reach global inclusivity.
 
 Thank you for considering FinSight, and we're excited about the journey ahead as we work towards a more inclusive and accessible financial world.
 
@@ -127,4 +125,4 @@ Thank you for considering FinSight, and we're excited about the journey ahead as
 
 <br />
 
-### Together, we can break down barriers, create a more inclusive world, and empower the elderly and visual impaired to take control of their financial future.
+### Together, we can break down barriers, create a more inclusive world, and empower the elderly and visually impaired to take control of their financial future.
