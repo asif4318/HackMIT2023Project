@@ -50,6 +50,7 @@
 		1D1A4A4A2AB62718004CCAF8 /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
 		1D1A4A4C2AB628A8004CCAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1D1A4A4E2AB647F1004CCAF8 /* IDScanCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDScanCameraView.swift; sourceTree = "<group>"; };
+		1D1A4A522AB65B16004CCAF8 /* FinSight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FinSight.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		1D1A4A1C2AB6115A004CCAF8 /* FinSight */ = {
 			isa = PBXGroup;
 			children = (
+				1D1A4A522AB65B16004CCAF8 /* FinSight.entitlements */,
 				1D1A4A4C2AB628A8004CCAF8 /* Info.plist */,
 				1D1A4A2F2AB61F90004CCAF8 /* View */,
 				1D1A4A2B2AB61A34004CCAF8 /* Model */,
@@ -371,13 +373,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_ENTITLEMENTS = FinSight/FinSight.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FinSight/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7BYH4HTJ4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FinSight/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FinSight;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Requires Access to Camera";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Requires Photo Library Addition";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Requires Photo Library Usage";
@@ -387,15 +392,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.beta.HackMIT.FinSight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beta.hackmit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -409,13 +412,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_ENTITLEMENTS = FinSight/FinSight.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FinSight/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 7BYH4HTJ4D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FinSight/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FinSight;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Requires Access to Camera";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Requires Photo Library Addition";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Requires Photo Library Usage";
@@ -425,15 +431,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
-
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.beta.HackMIT.FinSight;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beta.hackmit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;

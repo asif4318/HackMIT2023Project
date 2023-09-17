@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
-
+import Intents
 @main
 struct FinSightApp: App {
+    @Environment(\.scenePhase) private var scenePhase
     init() {
         UINavigationBar.applyCustomAppearance()
     }
@@ -16,6 +17,10 @@ struct FinSightApp: App {
     var body: some Scene {
         WindowGroup {
             CameraView()
+        }.onChange(of: scenePhase) { phase in
+            INPreferences.requestSiriAuthorization({status in
+                print("Error requesting Siri Access")
+            })
         }
     }
 }
