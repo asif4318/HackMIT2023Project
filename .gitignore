@@ -1,6 +1,7 @@
 #Python
 Backend/plaid-service/venv/
 Backend/plaid-service/__pycache__/
+*.env
 
 
 # Xcode
