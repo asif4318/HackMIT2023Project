@@ -1,7 +1,5 @@
 # FinSight: Empowering Financial Independence for the Visually Impaired
 
-[![Live Demo](Insert Link Here)]
-
 > A vision-driven iOS app dedicated to enhancing financial independence for the visually impaired elderly.
 
 ## Table of Contents
@@ -23,6 +21,10 @@
 ### Mission
 
 At FinSight, our mission is to break down barriers and make financial management accessible to everyone, regardless of their visual abilities. We understand the challenges that elderly individuals with visual impairments face when managing their finances, and we're here to bridge that gap.
+
+### Inspiration
+
+The inspiration behind FinSight is to break down barriers and make financial management accessible to everyone, regardless of their visual abilities. We recognized the challenges faced by elderly individuals with visual impairments when it comes to managing their finances. Our mission is to empower them and ensure that they can confidently handle their financial affairs. With over 2.2 billion visually impaired people around the world, FinSight has the potential to change their lives by providing them with the tools they need to achieve financial independence and security.
 
 ### Our Vision
 
@@ -56,19 +58,5 @@ At FinSight, we believe that financial independence is a fundamental right. We a
 <img align="left" alt="GitHub" width="32px" src="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" style="padding-right:10px;" />
 
 <br />
-
-
-## Testimonials
-
-> [**“¡Lindo! ¡Esta aplicación por sí sola ya es oro!”**] <br>
-> — Ana Maria
-
-> [**“대단하다 그냥 대단하다”**]<br>
-> — Seo-Joon
-
-> [**“My life has completely changed thanks!”**]<br>
-> — Kevin Smith
-
----
 
 ### Together, we can break down barriers, create a more inclusive world, and empower the elderly and visual impaired to take control of their financial future.
