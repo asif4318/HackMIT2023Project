@@ -54,7 +54,7 @@ def get_sandbox():
     '''Returns data for sandbox user: -> {access_token, item_id, request_id}'''
     pt_request = SandboxPublicTokenCreateRequest(
     institution_id='ins_1',
-    initial_products=[Products('transactions')]
+    initial_products=[Products('transactions'), Products('balan')]
     )
     pt_response = client.sandbox_public_token_create(pt_request)
     # The generated public_token can now be
@@ -95,6 +95,9 @@ def analyze_receipt(receipt_text: str):
     prompt = 'You are a receipt analyzer that analyzes this receipt READING EACH ITEM BOUGHT, ITS COST, AND THE TOTAL. Keep it short and concise'
     text = chat_model.predict(prompt + ' ' + receipt_text)
     return {"output": text, 'timestamp': datetime.now()}
+
+#@app.get('/balances')
+
 
 
 if __name__ == '__main__':
