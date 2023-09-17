@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
-
+import Intents
 @main
 struct FinSightApp: App {
+//    @Environment(\.scenePhase) private var scenePhase
     init() {
         UINavigationBar.applyCustomAppearance()
     }
@@ -19,7 +20,6 @@ struct FinSightApp: App {
         }
     }
 }
-
 
 fileprivate extension UINavigationBar {
     
