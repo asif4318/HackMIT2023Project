@@ -16,7 +16,6 @@ import uvicorn
 from datetime import datetime
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
-import json
 
 dotenv.load_dotenv()
 
@@ -86,19 +85,6 @@ def get_transactions():
     response = client.transactions_get(request)
     transactions = response['transactions']
     return response.to_dict()
-    
-
-@app.get('/receipt/analyze')
-def analyze_receipt(receipt_text: str):
-    #TODO: Create a prompt that is good at analyzing receipts and telling them what they spent their money on
-    print('Analyzing Receipt')
-    prompt = 'You are a receipt analyzer that analyzes this receipt READING EACH ITEM BOUGHT, ITS COST, AND THE TOTAL. Keep it short and concise'
-    text = chat_model.predict(prompt + ' ' + receipt_text)
-    return {"output": text, 'timestamp': datetime.now()}
-
-#@app.get('/balances')
-
-
 
 if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=8000)

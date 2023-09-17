@@ -54,6 +54,10 @@
 		1D1A4AA62AB6EB0B004CCAF8 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A462AB626E6004CCAF8 /* PhotoAssetCollection.swift */; };
 		1D1A4AA72AB6EB11004CCAF8 /* OCRVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */; };
 		1D1A4AA82AB6EB11004CCAF8 /* OCRVision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */; };
+		8AB7A5242AB6D215000863B6 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB7A5232AB6D215000863B6 /* PythonKit */; };
+		8AB7A5262AB6D240000863B6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB7A5252AB6D240000863B6 /* API.swift */; };
+		8AB7A5282AB6D3E2000863B6 /* env.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8AB7A5272AB6D3E2000863B6 /* env.txt */; };
+		8AB7A52B2AB6D574000863B6 /* LangChain in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB7A52A2AB6D574000863B6 /* LangChain */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +126,8 @@
 		1D1A4A7F2AB6D687004CCAF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D1A4A8F2AB6DF60004CCAF8 /* FinSightIntent.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = FinSightIntent.intentdefinition; sourceTree = "<group>"; };
 		1D1A4A922AB6E254004CCAF8 /* FinSightIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinSightIntentHandler.swift; sourceTree = "<group>"; };
+		8AB7A5252AB6D240000863B6 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		8AB7A5272AB6D3E2000863B6 /* env.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = env.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB7A52B2AB6D574000863B6 /* LangChain in Frameworks */,
+				8AB7A5242AB6D215000863B6 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +191,7 @@
 				1D1A4A1F2AB6115A004CCAF8 /* ContentView.swift */,
 				1D1A4A212AB6115C004CCAF8 /* Assets.xcassets */,
 				1D1A4A232AB6115C004CCAF8 /* Preview Content */,
+				8AB7A5272AB6D3E2000863B6 /* env.txt */,
 			);
 			path = FinSight;
 			sourceTree = "<group>";
@@ -200,6 +209,7 @@
 			children = (
 				1D1A4A3D2AB625A7004CCAF8 /* Camera */,
 				1D1A4A2C2AB61A64004CCAF8 /* OCRVision.swift */,
+				8AB7A5252AB6D240000863B6 /* API.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,6 +307,10 @@
 				1D1A4A842AB6D687004CCAF8 /* PBXTargetDependency */,
 			);
 			name = FinSight;
+			packageProductDependencies = (
+				8AB7A5232AB6D215000863B6 /* PythonKit */,
+				8AB7A52A2AB6D574000863B6 /* LangChain */,
+			);
 			productName = FinSight;
 			productReference = 1D1A4A1A2AB6115A004CCAF8 /* FinSight.app */;
 			productType = "com.apple.product-type.application";
@@ -365,6 +379,10 @@
 				Base,
 			);
 			mainGroup = 1D1A4A112AB6115A004CCAF8;
+			packageReferences = (
+				8AB7A5222AB6D215000863B6 /* XCRemoteSwiftPackageReference "PythonKit" */,
+				8AB7A5292AB6D574000863B6 /* XCRemoteSwiftPackageReference "langchain-swift" */,
+			);
 			productRefGroup = 1D1A4A1B2AB6115A004CCAF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -381,6 +399,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB7A5282AB6D3E2000863B6 /* env.txt in Resources */,
 				1D1A4A252AB6115C004CCAF8 /* Preview Assets.xcassets in Resources */,
 				1D1A4A222AB6115C004CCAF8 /* Assets.xcassets in Resources */,
 			);
@@ -425,6 +444,7 @@
 				1D1A4A4B2AB62718004CCAF8 /* PhotoLibrary.swift in Sources */,
 				1D1A4A472AB626E6004CCAF8 /* PhotoAssetCollection.swift in Sources */,
 				1D1A4A382AB6253F004CCAF8 /* ThumbnailView.swift in Sources */,
+				8AB7A5262AB6D240000863B6 /* API.swift in Sources */,
 				1D1A4A312AB6245A004CCAF8 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -833,6 +853,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8AB7A5222AB6D215000863B6 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8AB7A5292AB6D574000863B6 /* XCRemoteSwiftPackageReference "langchain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/buhe/langchain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.25.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8AB7A5232AB6D215000863B6 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AB7A5222AB6D215000863B6 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+		8AB7A52A2AB6D574000863B6 /* LangChain */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AB7A5292AB6D574000863B6 /* XCRemoteSwiftPackageReference "langchain-swift" */;
+			productName = LangChain;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D1A4A122AB6115A004CCAF8 /* Project object */;
 }
